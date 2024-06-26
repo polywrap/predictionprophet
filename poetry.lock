@@ -1606,6 +1606,20 @@ testing = ["covdefaults (>=2.3)", "coverage (>=7.3.2)", "diff-cover (>=8.0.1)", 
 typing = ["typing-extensions (>=4.8)"]
 
 [[package]]
+name = "firecrawl-py"
+version = "0.0.13"
+description = "Python SDK for Firecrawl API"
+optional = false
+python-versions = ">=3.8"
+files = [
+    {file = "firecrawl_py-0.0.13-py3-none-any.whl", hash = "sha256:24df5a8640d12cb2debb3b36534826a776935a0be1fe65658c2dddc4847713cf"},
+    {file = "firecrawl_py-0.0.13.tar.gz", hash = "sha256:eea6be220606a7254160df71b3cd93e75389acf179e44a7ced034323b546c628"},
+]
+
+[package.dependencies]
+requests = "*"
+
+[[package]]
 name = "flaml"
 version = "2.1.2"
 description = "A fast library for automated machine learning and tuning"
@@ -7251,4 +7265,4 @@ test = ["big-O", "importlib-resources", "jaraco.functools", "jaraco.itertools", 
 [metadata]
 lock-version = "2.0"
 python-versions = "~3.10"
-content-hash = "011bf0b2b21cf8aa8ad6c1b6332206018a91c4a951662aed43a4628c4678ed59"
+content-hash = "a14bf83ecac7eda7dfe90244e0b6673c4c4fb6c57bd1ab8e3e47526cbc8a2b2e"

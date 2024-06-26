@@ -37,6 +37,7 @@ langchain-community = "^0.0.32"
 memory-profiler = "^0.61.0"
 matplotlib = "^3.8.3"
 pyautogen = "^0.2.19"
+firecrawl-py = "^0.0.13"
 
 [tool.poetry.group.dev.dependencies]
 mypy = "^1.8.0"
